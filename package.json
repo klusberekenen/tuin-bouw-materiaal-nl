@@ -1,0 +1,55 @@
+{
+  "name": "tuin-bouw-materiaal-nl",
+  "version": "2026.1.0",
+  "description": "Zero-dependency NL/BE garden & construction material calculator and open dataset (beton, grind & split, straatzand, tuintegels, Big Bag & 750 kg aanhanger check).",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./data/aggregates-nl-2026.json": "./data/aggregates-nl-2026.json",
+    "./data/beton-presets-nl.json": "./data/beton-presets-nl.json",
+    "./data/tuintegels-logistics-nl.json": "./data/tuintegels-logistics-nl.json"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "LICENSE",
+    "CITATION.cff",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "homepage": "https://klusberekenen.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klusberekenen/tuin-bouw-materiaal-nl.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "beton",
+    "betonmortel",
+    "grind",
+    "split",
+    "straatzand",
+    "ophoogzand",
+    "tuintegels",
+    "klinkers",
+    "big-bag",
+    "aanhanger-750kg",
+    "crow",
+    "nen-en-206",
+    "netherlands",
+    "belgium",
+    "construction-calculator",
+    "open-data"
+  ]
+}

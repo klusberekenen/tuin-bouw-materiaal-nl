@@ -1,0 +1,10 @@
+category,id,label,short_label,density_kg_m3,default_compaction_or_extra_pct,recommended_thickness_cm,note
+grind_split,basalt_split,"Basalt split (donkergrijs, 8-16 mm)","Basalt split",1600,8,7,"Hard, hoekig antraciet split. Ideaal voor opritten omdat het nauwelijks wegrolt."
+grind_split,ardennen_split,"Ardenner split (lichtgrijs, 8-16 mm)","Ardenner split",1500,5,5,"Klassiek Belgisch kalksteen split voor tuinpaden, borders en opritten."
+grind_split,riviergrind,"Riviergrind / Moraine grind (8-16 mm)","Riviergrind 8-16",1550,5,5,"Afgeronde stenen, prettig om op te lopen; op opritten altijd combineren met grindmatten."
+grind_split,carrara_split,"Carrara / Wit marmer split (8-16 mm)","Carrara split",1500,5,5,"Helderwit siersplit voor moderne borders en lichte voortuinen."
+grind_split,lava_split,"Lava split (lichtgewicht drainage)","Lava split",1000,5,6,"Poreus vulkanisch gesteente met laag eigen gewicht en snelle waterafvoer."
+zand,straatzand,"Straatzand (onder bestrating & tegels)","Straatzand",1500,15,15,"Grof, scherp zand dat goed draineert en stevig aantrilt (10–15% inklink)."
+zand,ophoogzand,"Ophoogzand / Vulzand (terrein ophogen)","Ophoogzand",1500,15,20,"Voordelig vulzand voor diepere ophogingen onder een laag straatzand."
+zand,speelzand,"Speelzand (gewassen zandbakzand)","Speelzand",1450,5,30,"Schoon, leemarm en afgerond zand dat niet machinaal wordt aangetrild."
+zand,brekerzand,"Brekerzand / Inveegzand (voegen)","Brekerzand",1600,10,3,"Extra hoekig, grof invoegzand dat bestrating en klinkers strak op elkaar klemt."

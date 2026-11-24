@@ -1,0 +1,101 @@
+{
+  "year": 2026,
+  "updated_at": "2026-11-24",
+  "standard": "NEN-EN 206",
+  "reference_calculator": "https://klusberekenen.com/beton-berekenen/",
+  "sources": [
+    {
+      "name": "NEN-EN 206 — Beton: Specificatie, eigenschappen, vervaardiging en conformiteit",
+      "url": "https://www.nen.nl/"
+    },
+    {
+      "name": "KlusBerekenen — Beton berekenen (25 kg zakken & stortbeton, stand 2026)",
+      "url": "https://klusberekenen.com/beton-berekenen/"
+    }
+  ],
+  "bagWeightKg": 25,
+  "bagYieldM3": 0.0125,
+  "bagYieldLiter": 12.5,
+  "bagsPerM3": 80,
+  "waterPerBagLiter": 2.2,
+  "stortbetonThresholdM3": 0.75,
+  "defaultBagPriceEur": 4.5,
+  "bagPriceRangeEur": [3.75, 5.0],
+  "stortbetonRefPerM3Eur": 145,
+  "defaultLossPct": 5,
+  "selfMix123PerM3": {
+    "ratioVolume": "1:2:3",
+    "description": "Klassieke NL/BE doe-het-zelf mengverhouding (1 deel cement : 2 delen betonzand : 3 delen betongrind) per 1 m³ verdicht beton (~C20/25 richtwaarde)",
+    "cementKg": 325,
+    "cementBagWeightKg": 25,
+    "cementBags25": 13,
+    "betonzandM3": 0.48,
+    "betonzandKg": 720,
+    "betongrindM3": 0.72,
+    "betongrindKg": 1152,
+    "waterLiter": 175
+  },
+  "thicknessPresets": [
+    {
+      "id": "werkvloer",
+      "label": "Werkvloer / schone laag",
+      "thicknessCm": 5,
+      "nettoM3PerM2": 0.05,
+      "bags25PerM2": 4,
+      "weightKgPerM2": 100,
+      "stortbetonFromM2": 15,
+      "note": "Uitvlaklaag onder fundering of isolatie"
+    },
+    {
+      "id": "terrasplaat",
+      "label": "Terrasplaat (niet berijdbaar)",
+      "thicknessCm": 10,
+      "nettoM3PerM2": 0.1,
+      "bags25PerM2": 8,
+      "weightKgPerM2": 200,
+      "stortbetonFromM2": 7.5,
+      "note": "Gangbaar terras of lichte betonvloer (C20/25)"
+    },
+    {
+      "id": "tuinhuis",
+      "label": "Tuinhuis- of blokhutplaat",
+      "thicknessCm": 12,
+      "nettoM3PerM2": 0.12,
+      "bags25PerM2": 9.6,
+      "weightKgPerM2": 240,
+      "stortbetonFromM2": 6.25,
+      "note": "Standaard vloerplaat tuinhuis (bijv. 4×3 m = 12 m²)"
+    },
+    {
+      "id": "oprit",
+      "label": "Berijdbare oprit (personenauto)",
+      "thicknessCm": 15,
+      "nettoM3PerM2": 0.15,
+      "bags25PerM2": 12,
+      "weightKgPerM2": 300,
+      "stortbetonFromM2": 5,
+      "note": "Minimaal 15 cm met wapeningsnet (C20/25 XF1)"
+    },
+    {
+      "id": "strokenfundering",
+      "label": "Strokenfundering / tuinmuur",
+      "thicknessCm": 20,
+      "nettoM3PerM2": 0.2,
+      "bags25PerM2": 16,
+      "weightKgPerM2": 400,
+      "stortbetonFromM2": 3.75,
+      "note": "Vorstvrije aanlegdiepte 60–80 cm onder maaiveld"
+    }
+  ],
+  "postPresets": [
+    { "id": "licht", "label": "Lichte paal (1,5 zak / paal)", "bagsPerPost": 1.5 },
+    { "id": "standaard", "label": "Standaard schuttingpaal 7×7 / 9×9 cm (2 zakken / paal)", "bagsPerPost": 2.0 },
+    { "id": "zwaar", "label": "Zware poort- of hoekpaal (3 zakken / paal)", "bagsPerPost": 3.0 }
+  ],
+  "quickScenarios": [
+    { "id": "tuinhuis", "label": "Tuinhuis 4×3 m", "mode": "vlak", "lengte": 4, "breedte": 3, "dikte": 12, "verlies": 5 },
+    { "id": "schutting", "label": "Schutting (10 palen)", "mode": "palen", "aantalPalen": 10, "palenMethode": "vuistregel", "zakkenPerPaal": 2 },
+    { "id": "terrasplaat", "label": "Terrasplaat 5×4 m", "mode": "vlak", "lengte": 5, "breedte": 4, "dikte": 10, "verlies": 5 },
+    { "id": "fundering", "label": "Fundering 6×0,5 m", "mode": "vlak", "lengte": 6, "breedte": 0.5, "dikte": 20, "verlies": 5 }
+  ]
+}

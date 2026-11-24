@@ -1,0 +1,178 @@
+{
+  "year": 2026,
+  "updated_at": "2026-11-24",
+  "reference_calculator": "https://klusberekenen.com",
+  "sources": [
+    {
+      "name": "Rijksoverheid / RDW — Regels voor ongeremde aanhangwagen tot 750 kg (rijbewijs B)",
+      "url": "https://www.rijksoverheid.nl/"
+    },
+    {
+      "name": "CROW — Richtlijnen grond-, weg- en waterbouw (bestrating en zandbed)",
+      "url": "https://www.crow.nl/"
+    },
+    {
+      "name": "KlusBerekenen — Tuintegels berekenen (incl. snijverlies, zandbed & 750 kg aanhanger-check)",
+      "url": "https://klusberekenen.com/tuintegels-berekenen/"
+    }
+  ],
+  "logistics": {
+    "authority": "Rijksoverheid / RDW",
+    "trailerTmmKg": 750,
+    "defaultEmptyWeightKg": 200,
+    "defaultMaxPayloadKg": 550,
+    "minPayloadKg": 350,
+    "maxPayloadKg": 600,
+    "carTrunkMaxKg": 350,
+    "bigBagSizesM3": [1.0, 0.7, 0.5],
+    "worteldoekOverlapFactor": 1.15,
+    "grindmatAreaM2": 0.96,
+    "grindmatLossFactor": 1.05,
+    "grindmatDimensionsCm": "120 × 80 cm"
+  },
+  "tiles": [
+    {
+      "id": "60x60_beton_5cm",
+      "label": "60×60 cm Betontegel (5 cm)",
+      "shortLabel": "60×60 Beton 5 cm",
+      "lengthM": 0.6,
+      "widthM": 0.6,
+      "thicknessCm": 5,
+      "weightKg": 42,
+      "voegzandKgPerM2": 1.5,
+      "recommendedZandCm": 15,
+      "category": "tegel"
+    },
+    {
+      "id": "60x60_keramiek_beton_4cm",
+      "label": "60×60 cm Keramiek-op-beton (4 cm)",
+      "shortLabel": "60×60 Keramiek-beton",
+      "lengthM": 0.6,
+      "widthM": 0.6,
+      "thicknessCm": 4,
+      "weightKg": 34,
+      "voegzandKgPerM2": 1.5,
+      "recommendedZandCm": 15,
+      "category": "tegel"
+    },
+    {
+      "id": "60x60_volkeramiek_3cm",
+      "label": "60×60 cm Volkeramiek (3 cm)",
+      "shortLabel": "60×60 Volkeramiek",
+      "lengthM": 0.6,
+      "widthM": 0.6,
+      "thicknessCm": 3,
+      "weightKg": 25,
+      "voegzandKgPerM2": 1.5,
+      "recommendedZandCm": 15,
+      "category": "tegel"
+    },
+    {
+      "id": "80x80_beton_5cm",
+      "label": "80×80 cm Betontegel (5 cm)",
+      "shortLabel": "80×80 Beton 5 cm",
+      "lengthM": 0.8,
+      "widthM": 0.8,
+      "thicknessCm": 5,
+      "weightKg": 75,
+      "voegzandKgPerM2": 1.5,
+      "recommendedZandCm": 15,
+      "category": "tegel"
+    },
+    {
+      "id": "90x90_beton_6cm",
+      "label": "90×90 cm Betontegel (6 cm)",
+      "shortLabel": "90×90 Beton 6 cm",
+      "lengthM": 0.9,
+      "widthM": 0.9,
+      "thicknessCm": 6,
+      "weightKg": 115,
+      "voegzandKgPerM2": 1.5,
+      "recommendedZandCm": 15,
+      "category": "tegel"
+    },
+    {
+      "id": "waaltjes",
+      "label": "Waaltjes (20×5×7 cm)",
+      "shortLabel": "Waaltjes 20×5",
+      "lengthM": 0.2,
+      "widthM": 0.05,
+      "thicknessCm": 7,
+      "weightKg": 1.55,
+      "voegzandKgPerM2": 4.0,
+      "recommendedZandCm": 15,
+      "category": "klinker"
+    },
+    {
+      "id": "dikformaat",
+      "label": "Dikformaat (21×7×8 cm)",
+      "shortLabel": "Dikformaat 21×7",
+      "lengthM": 0.21,
+      "widthM": 0.07,
+      "thicknessCm": 8,
+      "weightKg": 2.6,
+      "voegzandKgPerM2": 4.0,
+      "recommendedZandCm": 20,
+      "category": "klinker"
+    },
+    {
+      "id": "bkk_klinkers",
+      "label": "BKK Klinkers (21×10,5×8 cm)",
+      "shortLabel": "BKK Klinkers 21×10,5",
+      "lengthM": 0.21,
+      "widthM": 0.105,
+      "thicknessCm": 8,
+      "weightKg": 3.75,
+      "voegzandKgPerM2": 4.0,
+      "recommendedZandCm": 20,
+      "category": "klinker"
+    }
+  ],
+  "patterns": [
+    { "id": "recht", "label": "Recht verband (+5% snijverlies)", "defaultLossPct": 5 },
+    { "id": "halfsteens", "label": "Halfsteens verband (+10% snijverlies)", "defaultLossPct": 10 },
+    { "id": "diagonaal", "label": "Diagonaal / Visgraat (+12% snijverlies)", "defaultLossPct": 12 }
+  ],
+  "quickScenarios": [
+    {
+      "id": "terras_60",
+      "label": "Terras 60×60 (24 m²)",
+      "lengte": 6,
+      "breedte": 4,
+      "tegel": "60x60_beton_5cm",
+      "legverband": "halfsteens",
+      "snijverlies": 10,
+      "zandbedDikte": 15
+    },
+    {
+      "id": "luxe_80",
+      "label": "Luxe 80×80 (20 m²)",
+      "lengte": 5,
+      "breedte": 4,
+      "tegel": "80x80_beton_5cm",
+      "legverband": "recht",
+      "snijverlies": 5,
+      "zandbedDikte": 15
+    },
+    {
+      "id": "oprit_klinkers",
+      "label": "Oprit klinkers (28 m²)",
+      "lengte": 8,
+      "breedte": 3.5,
+      "tegel": "bkk_klinkers",
+      "legverband": "halfsteens",
+      "snijverlies": 10,
+      "zandbedDikte": 20
+    },
+    {
+      "id": "pad_waaltjes",
+      "label": "Pad waaltjes (10 m²)",
+      "lengte": 8,
+      "breedte": 1.25,
+      "tegel": "waaltjes",
+      "legverband": "diagonaal",
+      "snijverlies": 12,
+      "zandbedDikte": 15
+    }
+  ]
+}

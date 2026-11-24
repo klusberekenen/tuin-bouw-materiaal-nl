@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Indien je deze dataset of rekenmodule gebruikt in onderzoek, software of documentatie, citeer dit project als volgt."
+title: "tuin-bouw-materiaal-nl: NL/BE Tuin & Bouwmateriaal Dataset en Rekenmodule (2026)"
+type: software
+version: "2026.1.0"
+date-released: "2026-11-24"
+license: MIT
+url: "https://klusberekenen.com"
+repository-code: "https://github.com/klusberekenen/tuin-bouw-materiaal-nl"
+authors:
+  - name: "KlusBerekenen"
+    website: "https://klusberekenen.com"
+keywords:
+  - beton
+  - grind
+  - split
+  - straatzand
+  - tuintegels
+  - big-bag
+  - aanhanger-750kg
+  - crow
+  - nen-en-206
+  - open-data
+abstract: "Nul-afhankelijkheden ESM JavaScript rekenmodule en open JSON/CSV-referentiedataset (stand 2026) voor betonmortel (25 kg zakken en 1:2:3 zelf mengen), grind & split, zand met inklink, tuintegels/klinkers, Big Bag-combinaties en 750 kg aanhanger-laadvermogen in Nederland en België."

@@ -1,0 +1,193 @@
+{
+  "year": 2026,
+  "updated_at": "2026-11-24",
+  "standard": "CROW",
+  "reference_calculator": "https://klusberekenen.com",
+  "sources": [
+    {
+      "name": "CROW — Richtlijnen grond-, weg- en waterbouw (verdichting en soortelijk gewicht)",
+      "url": "https://www.crow.nl/"
+    },
+    {
+      "name": "KlusBerekenen — Grind & Split en Zand rekentools (stand 2026)",
+      "url": "https://klusberekenen.com/grind-split-berekenen/"
+    }
+  ],
+  "grindMaterials": [
+    {
+      "id": "basalt_split",
+      "label": "Basalt split (donkergrijs, 8-16 mm)",
+      "shortLabel": "Basalt split",
+      "densityKgM3": 1600,
+      "defaultExtraPct": 8,
+      "recommendedCm": 7,
+      "note": "Hard, hoekig antraciet split. Ideaal voor opritten omdat het nauwelijks wegrolt."
+    },
+    {
+      "id": "ardennen_split",
+      "label": "Ardenner split (lichtgrijs, 8-16 mm)",
+      "shortLabel": "Ardenner split",
+      "densityKgM3": 1500,
+      "defaultExtraPct": 5,
+      "recommendedCm": 5,
+      "note": "Klassiek Belgisch kalksteen split voor tuinpaden, borders en opritten."
+    },
+    {
+      "id": "riviergrind",
+      "label": "Riviergrind / Moraine grind (8-16 mm)",
+      "shortLabel": "Riviergrind 8-16",
+      "densityKgM3": 1550,
+      "defaultExtraPct": 5,
+      "recommendedCm": 5,
+      "note": "Afgeronde stenen, prettig om op te lopen; op opritten altijd combineren met grindmatten."
+    },
+    {
+      "id": "carrara_split",
+      "label": "Carrara / Wit marmer split (8-16 mm)",
+      "shortLabel": "Carrara split",
+      "densityKgM3": 1500,
+      "defaultExtraPct": 5,
+      "recommendedCm": 5,
+      "note": "Helderwit siersplit voor moderne borders en lichte voortuinen."
+    },
+    {
+      "id": "lava_split",
+      "label": "Lava split (lichtgewicht drainage)",
+      "shortLabel": "Lava split",
+      "densityKgM3": 1000,
+      "defaultExtraPct": 5,
+      "recommendedCm": 6,
+      "note": "Poreus vulkanisch gesteente met laag eigen gewicht en snelle waterafvoer."
+    }
+  ],
+  "grindPricing": {
+    "bag25KgEur": 5.25,
+    "bigBag10Eur": 155,
+    "bigBag07Eur": 125,
+    "bigBag05Eur": 95
+  },
+  "grindQuickScenarios": [
+    {
+      "id": "oprit",
+      "label": "Oprit 28 m² (7 cm)",
+      "lengte": 8,
+      "breedte": 3.5,
+      "dikte": 7,
+      "materiaal": "basalt_split",
+      "extra": 8,
+      "grindmatten": true
+    },
+    {
+      "id": "tuinpad",
+      "label": "Pad 12 m² (5 cm)",
+      "lengte": 10,
+      "breedte": 1.2,
+      "dikte": 5,
+      "materiaal": "ardennen_split",
+      "extra": 5,
+      "grindmatten": false
+    },
+    {
+      "id": "border",
+      "label": "Border 8 m² (5 cm)",
+      "lengte": 8,
+      "breedte": 1,
+      "dikte": 5,
+      "materiaal": "carrara_split",
+      "extra": 5,
+      "grindmatten": false
+    },
+    {
+      "id": "parkeerplaats",
+      "label": "Parkeer 15 m²",
+      "lengte": 5,
+      "breedte": 3,
+      "dikte": 8,
+      "materiaal": "basalt_split",
+      "extra": 8,
+      "grindmatten": true
+    }
+  ],
+  "zandTypes": [
+    {
+      "id": "straatzand",
+      "label": "Straatzand (onder bestrating & tegels)",
+      "shortLabel": "Straatzand",
+      "densityKgM3": 1500,
+      "defaultInklinkPct": 15,
+      "recommendedCm": 15,
+      "note": "Grof, scherp zand dat goed draineert en stevig aantrilt (10–15% inklink)."
+    },
+    {
+      "id": "ophoogzand",
+      "label": "Ophoogzand / Vulzand (terrein ophogen)",
+      "shortLabel": "Ophoogzand",
+      "densityKgM3": 1500,
+      "defaultInklinkPct": 15,
+      "recommendedCm": 20,
+      "note": "Voordelig vulzand voor diepere ophogingen onder een laag straatzand."
+    },
+    {
+      "id": "speelzand",
+      "label": "Speelzand (gewassen zandbakzand)",
+      "shortLabel": "Speelzand",
+      "densityKgM3": 1450,
+      "defaultInklinkPct": 5,
+      "recommendedCm": 30,
+      "note": "Schoon, leemarm en afgerond zand dat niet machinaal wordt aangetrild."
+    },
+    {
+      "id": "brekerzand",
+      "label": "Brekerzand / Inveegzand (voegen)",
+      "shortLabel": "Brekerzand",
+      "densityKgM3": 1600,
+      "defaultInklinkPct": 10,
+      "recommendedCm": 3,
+      "note": "Extra hoekig, grof invoegzand dat bestrating en klinkers strak op elkaar klemt."
+    }
+  ],
+  "zandPricing": {
+    "bag25KgEur": 2.85,
+    "bigBag10Eur": 85,
+    "bigBag07Eur": 72,
+    "bigBag05Eur": 59
+  },
+  "zandQuickScenarios": [
+    {
+      "id": "terras_zand",
+      "label": "Terras 20 m² (15 cm)",
+      "lengte": 5,
+      "breedte": 4,
+      "dikte": 15,
+      "zandsoort": "straatzand",
+      "inklink": 15
+    },
+    {
+      "id": "oprit_zand",
+      "label": "Oprit 25 m² (25 cm)",
+      "lengte": 8,
+      "breedte": 3.125,
+      "dikte": 25,
+      "zandsoort": "straatzand",
+      "inklink": 15
+    },
+    {
+      "id": "zandbak",
+      "label": "Zandbak 1,5×1,5 m",
+      "lengte": 1.5,
+      "breedte": 1.5,
+      "dikte": 30,
+      "zandsoort": "speelzand",
+      "inklink": 5
+    },
+    {
+      "id": "kunstgras",
+      "label": "Kunstgras 30 m²",
+      "lengte": 6,
+      "breedte": 5,
+      "dikte": 10,
+      "zandsoort": "straatzand",
+      "inklink": 15
+    }
+  ]
+}

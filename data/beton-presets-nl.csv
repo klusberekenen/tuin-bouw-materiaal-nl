@@ -1,0 +1,6 @@
+id,toepassing,dikte_cm,netto_m3_per_m2,zakken_25kg_per_m2_excl_verlies,gewicht_kg_per_m2_excl_verlies,stortbeton_aanbevolen_vanaf_m2,opmerking
+werkvloer,"Werkvloer / schone laag",5,0.05,4,100,15.0,"Uitvlaklaag onder fundering of isolatie"
+terrasplaat,"Terrasplaat (niet berijdbaar)",10,0.10,8,200,7.5,"Gangbaar terras of lichte betonvloer (C20/25)"
+tuinhuis,"Tuinhuis- of blokhutplaat",12,0.12,9.6,240,6.25,"Standaard vloerplaat tuinhuis (bijv. 4×3 m = 12 m²)"
+oprit,"Berijdbare oprit (personenauto)",15,0.15,12,300,5.0,"Minimaal 15 cm met wapeningsnet (C20/25 XF1)"
+strokenfundering,"Strokenfundering / tuinmuur",20,0.20,16,400,3.75,"Vorstvrije aanlegdiepte 60–80 cm onder maaiveld"

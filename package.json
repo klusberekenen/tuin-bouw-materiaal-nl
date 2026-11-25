@@ -20,7 +20,8 @@
     "LICENSE",
     "CITATION.cff",
     "README.md",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    ".zenodo.json"
   ],
   "engines": {
     "node": ">=18.0.0"

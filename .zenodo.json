@@ -1,0 +1,59 @@
+{
+  "title": "Netherlands & Belgium 2026 Outdoor Construction Material Open Dataset & Engine (Concrete, Gravel, Sand, Tiles, Big Bags & 750 kg Trailer)",
+  "upload_type": "dataset",
+  "publication_date": "2026-11-24",
+  "version": "2026.1.0",
+  "language": "nld",
+  "description": "Open 2026 reference datasets (JSON/CSV) and zero-dependency ESM calculation formulas published by KlusBerekenen (klusberekenen.com) aligned with Dutch NEN-EN 206, CROW, and RDW guidelines for the Netherlands and Belgium. Covers concrete 25 kg bag yields and 1:2:3 self-mix (https://klusberekenen.com/beton-berekenen/), 750 kg unbraked trailer payload trip counts (https://klusberekenen.com/beton/25kg-zakken-per-m3/), gravel/split/sand bulk densities with compaction, garden tiles, and Big Bag sizing.",
+  "creators": [
+    {
+      "name": "KlusBerekenen Maintainers",
+      "type": "Organization",
+      "affiliation": "KlusBerekenen"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "beton",
+    "grind",
+    "tuin",
+    "klussen",
+    "zand",
+    "tuintegels",
+    "netherlands",
+    "belgium",
+    "construction-calculator",
+    "open-data",
+    "javascript",
+    "crow",
+    "klusberekenen.com",
+    "2026"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://klusberekenen.com/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://klusberekenen.com/beton-berekenen/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://klusberekenen.com/beton/25kg-zakken-per-m3/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/klusberekenen/tuin-bouw-materiaal-nl",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
